@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: none;
+}
+
+body {
+    font-family: Arial;
+    background-color: #e8e8e8;
+    padding: 50px;
+}
+
+.login {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.login-screen {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.app-title {
+    text-align: center;
+    color: #777;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    width: 250px;
+    transition: border .5s;
+    padding: 10px 0;
+}
+
+input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
+
+.btn-group button {
+    background-color: #4CAF50;
+    border: 1px solid green;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    padding: 10px 24px;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background: #5dc3c3;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: .25s;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.btn:hover {
+    background-color: #2980B9;
+}
+
+.login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+}

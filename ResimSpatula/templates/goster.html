@@ -1,0 +1,15 @@
+{% extends "taban.html" %}
+{% block content %}
+
+<div class="table-users">
+    <div class="header">Some of the scrapped images:</div>
+    <table>
+        {% for user_image in list_images %}
+          <tr>
+            <img width="300" height="300" src="{{ url_for('static', filename=user_image) }}" alt="User Image">
+          </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
